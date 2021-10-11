@@ -4,5 +4,20 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "name": "ci-exercise",
+  "version": "1.0.0",
+  "main": "project.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilZ7/ci-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilZ7/ci-exercise/issues"
+  },
+  "homepage": "https://github.com/PhilZ7/ci-exercise#readme",
+  "description": ""
 }

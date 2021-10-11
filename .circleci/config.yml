@@ -19,3 +19,22 @@ workflows:
           version: '16.10'
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
+          steps:
+            - checkout
+            - run: npm run test
+            
+
+
+
+#     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+#     steps:
+#       - checkout
+#       - run:
+#           name: "Say hello"
+#           command: "echo Hello, World!"
+
+# # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+# workflows:
+#   say-hello-workflow:
+#     jobs:
+#       - say-hello
