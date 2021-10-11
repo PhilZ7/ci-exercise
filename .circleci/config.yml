@@ -19,6 +19,7 @@ jobs:
     steps:
       - checkout
       - node/with-cache:
+          cache-path: ~/test.js
           steps:
           - run: npm install
       - run: npm run test
